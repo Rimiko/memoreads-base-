@@ -28,6 +28,22 @@ File: Layout CSS
 #topbar .faico{margin-top:14px;}
 #topbar .faico li{margin:0;}
 
+.search_word{
+    margin-top:15px;
+}
+.page a{
+    font-size: 5px;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+.clear a{
+    margin: 0 20px;
+}
+
+
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
@@ -137,15 +153,28 @@ File: Layout CSS
 .sidebar {
     text-align: center;
     padding-top: 20px;
-    background-color: #FBFBFB;
+    background-color: white;
 }
 .sidebar a{
     color: #888888;
 }
 
+
 /* Main*/
 .content{
     border-left: 1px solid #EAEAEA;
+}
+.content h3{
+    text-align: left;
+    font-size: 30px;
+}
+.profile{
+    text-align: left;
+    padding-left: 50px;
+    width:800px;
+}
+.profile h6{
+    font-size: 20px;
 }
 
 /* Footer
@@ -197,7 +226,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
 #mainav{}
-#mainav ul{text-transform:uppercase; text-align:center;}
+#mainav ul{padding-right: 30px; text-align:center;}
 #mainav ul ul{z-index:9999; position:absolute; width:160px; text-transform:none; text-align:left;}
 #mainav ul ul ul{left:160px; top:0;}
 #mainav li{display:inline-block; position:relative; margin:0 10px 0 0; padding:0;}
